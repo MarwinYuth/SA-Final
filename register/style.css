@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.Topbar
+{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.welcome h2{
+    font-size: 5em;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 250px;
+    margin-left: 45px;
+}
+p{
+    font-size: 2em;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.Tleft,
+.Tright{
+    /* display: flex; */
+    width: 50%;
+    height: auto;
+}
+
+/* .Tleft{
+    height: 500px;
+    width: 50%;
+} */
+.Tleft{
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5))
+    ,url(https://th.bing.com/th/id/OIP.pTl7CR0tLw23dfS7___sYwHaEK?pid=ImgDet&rs=1);
+    background-size: cover;
+}
+.Tright{
+    width: 50%;
+}
+.Tright .copy {
+    color: black;
+    text-align: center;
+}
+.Tright .copy p{
+    margin: 1.5em 0;
+    font-size: 0.875rem;
+}
+.Tright form{
+    width: 328px;
+}
+.signup-btn{
+  border-radius: 5px;
+  margin-top: 15px;
+  background-color:blue;
+  color: white;
+  display: block;
+  cursor: pointer;
+  font-size: 0.75rem;
+  border: none;
+  width: 100%;
+  padding: 8px;
+  letter-spacing: 0.5px ;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.signup-btn:hover{
+    background-color: gray;
+}
+form input[type="text"] , form input[type="email"] , form input[type="password"]{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 1em;
+    margin-bottom: 2px; 
+    font-size: 15px;
+    outline: none;
+}
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+}
+.input-container .password{
+    position: relative;
+}
+.input-container .password .i{
+    position: absolute;
+    top: 42px;
+    right: 16px;
+ }
+
+ form{
+    margin-left: 280px;
+    margin-top: 180px;
+ }
